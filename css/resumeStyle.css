@@ -268,7 +268,7 @@ a {
 }
 @media only screen and (max-width: 667px) {
    .details {
-    font-size: 100% !important;
+    font-size: 1.1em !important;
 }
     body { 
      -webkit-text-size-adjust: 100%; 
