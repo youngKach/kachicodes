@@ -268,7 +268,7 @@ a {
 }
 @media only screen and (max-width: 667px) {
    .details {
-    font-size: 1em !important;
+    font-size: 100% !important;
 }
     [id$="info"] {
     line-height: normal;
