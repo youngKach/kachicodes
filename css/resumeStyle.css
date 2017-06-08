@@ -277,7 +277,5 @@ a {
     [id$="info"] {
     line-height: normal;
 }
-    iframe {
-        max-width: 30%;
-    }
+   
 }
