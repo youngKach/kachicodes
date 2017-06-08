@@ -20,6 +20,7 @@
 body {
     margin: 0px;
     font-family: bodyFont;
+
 }
 
 a {
@@ -49,7 +50,7 @@ a {
 
 #left-col {
     width: 22%;
-    height: 1260px;
+    height: 1300px;
     background-color: #323232;
 }
 
@@ -114,12 +115,12 @@ a {
 }
 
 #portfolio-info {
-    top: 1020px;
+    top: 1060px;
     width: 100%;
 }
 
 .details {
-    font-size: 1.1em;
+    font-size: 1.1em !important;
 }
 
 .left {
@@ -127,7 +128,7 @@ a {
     width: 30%;
 }
 
-.details p, .details h4, #projects-info h5 {
+.details ul li, .details p, .details h4, #projects-info h5 {
     padding-top: 0px;
     padding-bottom: 2px;
     margin-top: 0px;
@@ -177,7 +178,7 @@ a {
 }
 
 .row5 {
-    top:1060px;
+    top:1100px;
 }
 
 .bord {
@@ -267,7 +268,14 @@ a {
 
 }
 @media only screen and (max-width: 667px) {
-   body {
-        width: 100%;
+    .details {
+        font-size: 100% !important;
+    }
+    body {
+        -webkit-text-size-adjust: 100%; 
+    }
+    
+    [id$="info"] {
+        line-height: normal;
     }
 }
