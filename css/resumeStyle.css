@@ -270,6 +270,9 @@ a {
    .details {
     font-size: 100% !important;
 }
+    body { 
+     -webkit-text-size-adjust: 100%; 
+    }
     [id$="info"] {
     line-height: normal;
 }
