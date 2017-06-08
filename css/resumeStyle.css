@@ -49,7 +49,7 @@ a {
 
 #left-col {
     width: 22%;
-    height: 1260px;
+    height: 1300px;
     background-color: #323232;
 }
 
@@ -114,7 +114,7 @@ a {
 }
 
 #portfolio-info {
-    top: 1020px;
+    top: 1060px;
     width: 100%;
 }
 
@@ -177,7 +177,7 @@ a {
 }
 
 .row5 {
-    top:1060px;
+    top:1100px;
 }
 
 .bord {
@@ -269,5 +269,8 @@ a {
 @media only screen and (max-width: 667px) {
    .details {
     font-size: 1em !important;
+}
+    [id$="info"] {
+    line-height: normal;
 }
 }
